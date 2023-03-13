@@ -28,7 +28,7 @@ twitter_username:
 github_username:  AnneKDesler
 
 # Build settings
-theme: minima #hacker #minima
+theme: hacker #minima
 plugins:
   - jekyll-feed
 
