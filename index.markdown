@@ -8,5 +8,5 @@ layout: home
 <meta http-equiv='expires' content='0'> 
 <meta http-equiv='pragma' content='no-cache'>
 
-[About](./about.html)
-[Visualization](./visualization.html)
+[About](./about.markdown)
+[Visualization](./some_visualization.md)
