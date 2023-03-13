@@ -23,12 +23,12 @@ email: s194333@dtu.com
 description: >- # this means to ignore newlines until "baseurl:"
   This site is used for the course 02806 Social Data Visualization.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://annekdesler.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  AnneKDesler
 
 # Build settings
-theme: minima
+theme: hacker #minima
 plugins:
   - jekyll-feed
 
