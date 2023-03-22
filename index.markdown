@@ -8,5 +8,11 @@ layout: home
 <meta http-equiv='expires' content='0'> 
 <meta http-equiv='pragma' content='no-cache'>
 
-[**About**](./about.markdown)
-[**Visualization**](./some_visualization.md)
+
+<p align="center">
+    <img src="/figures/timeseries_plot.png" width="600" height="300">
+</p>
+
+<p align="center">
+    {% include map_plot.html %}
+</p>
