@@ -4,6 +4,7 @@
 
 layout: home
 ---
+
 <meta http-equiv='cache-control' content='no-cache'> 
 <meta http-equiv='expires' content='0'> 
 <meta http-equiv='pragma' content='no-cache'>
@@ -24,7 +25,9 @@ This article concerns the dataset: <a href="https://data.sfgov.org/Public-Safety
     Data analysis and visualization
 </h2>
 
+
 A more in-depth investigation of the data leads to the discovery of a clear pattern throughout the day and week. In figure 1 the number of occurrences is plotted on a weekly basis showing the 168 hours of the week.  
+
 
 <figure>
 <center>
@@ -33,10 +36,12 @@ A more in-depth investigation of the data leads to the discovery of a clear patt
 </center>
 </figure>
 
+
 In figure 1 it is observed that the number of drug-related incidents is least frequent around 6 in the morning and increases steadily throughout the day. The number of occurrences is systematically most frequent around 4 in the afternoon and decreases during the afternoon and night. 
 <br>
 <br>
 However, to obtain a more specific overview of where the drug-related crimes are registered we provide a map showing the number of occurrences within the different districts of San Francisco. 
+
 
 <figure>
 <center>
@@ -45,4 +50,14 @@ However, to obtain a more specific overview of where the drug-related crimes are
 </center>
 </figure>
 
+
 In figure 2 the number of incidents is compensated for the area of the district. Hence the number of incidents is multiplied by the area of the district divided by the total area of San Francisco. Hereby the number of occurrences can be compared across districts with a large variation in size. On the map, it is observed that the Southern district has the highest number of registered occurrences. The number of incidents in this district is significantly higher than in any other district and implies a high presence of drugs in the district. In general drug-related crimes are significantly more present in the middle and northern parts of the city. 
+
+<figure>
+<center>
+    {% include sf-drugs.html %}
+    <figcaption>Figure 3 - Interactive map of individual drug arrest incidents in San Francisco filtered by date range.</figcaption>
+</center>
+</figure>
+
+Diving deeper by plotting each drug arrest incident as seen in figure 3 gives an even more detailed view of where exactly the most drug related arrests are taking place. Eg. 6th street seems to account for a lot of incidents. Using the time range filter in the bottom, one can look to finde spatio-temporal patterns in the data for further analysis and action.
