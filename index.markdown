@@ -54,3 +54,5 @@ In figure 2 the number of incidents are compensated for the area of the district
     <figcaption>Figure 3 - Interactive map of individual drug arrest incidents in San Francisco filtered by date range.</figcaption>
 </center>
 </figure>
+
+Diving deeper by plotting each drug arrest incident as seen in figure 3 gives an even more detailed view of where exactly the most drug related arrests are taking place. Eg. 6th street seems to account for a lot of incidents. Using the time range filter in the bottom, one can look to finde spatio-temporal patterns in the data for further analysis and action.
