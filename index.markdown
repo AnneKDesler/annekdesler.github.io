@@ -46,12 +46,14 @@ However, to obtain a more specific overview of where the drug-related crimes are
 <figure>
 <center>
     {% include map_plot.html %}
-    <figcaption>Figure 2 - Map of drug/narcotic related crime occurrences in different districts of San Francisco.</figcaption>
+    <figcaption>Figure 2 - Map of drug/narcotic-related crime occurrences in different districts of San Francisco.</figcaption>
 </center>
 </figure>
 
 
 In figure 2 the number of incidents is compensated for the area of the district. Hence the number of incidents is multiplied by the area of the district divided by the total area of San Francisco. Hereby the number of occurrences can be compared across districts with a large variation in size. On the map, it is observed that the Southern district has the highest number of registered occurrences. The number of incidents in this district is significantly higher than in any other district and implies a high presence of drugs in the district. In general drug-related crimes are significantly more present in the middle and northern parts of the city. 
+
+Diving deeper by plotting each drug arrest incident as seen in figure 3 gives an even more detailed view of where exactly the most drug-related arrests are taking place.
 
 <figure>
 <center>
@@ -60,4 +62,4 @@ In figure 2 the number of incidents is compensated for the area of the district.
 </center>
 </figure>
 
-Diving deeper by plotting each drug arrest incident as seen in figure 3 gives an even more detailed view of where exactly the most drug related arrests are taking place. Eg. 6th street seems to account for a lot of incidents. Using the time range filter in the bottom, one can look to finde spatio-temporal patterns in the data for further analysis and action.
+Here it becomes evident that eg. 6th street seems to account for a lot of incidents. Using the time range filter at the bottom, one can look to find spatiotemporal patterns in the data for further analysis and action.
