@@ -10,7 +10,8 @@ layout: home
 <meta http-equiv='pragma' content='no-cache'>
 
 <header>
-    <h1> A statistical insight into drug/narcotic crimes in San Francisco in the years 2003 to 2017.</h1>
+    <h1> A statistical insight into drug/narcotic crimes in <br />
+    San Francisco in the years 2003 to 2017.</h1>
     <p> By: Anders Thuesen (s183926), Anne Desler (s194333), Linea Bartholdy (s185231)</p>
     <p> Date: 27-03-2023 </p>
 </header>
@@ -40,7 +41,7 @@ A more in-depth investigation of the data leads to the discovery of a clear patt
 In figure 1 it is observed that the number of drug-related incidents is least frequent around 6 in the morning and increases steadily throughout the day. The number of occurrences is systematically most frequent around 4 in the afternoon and decreases during the afternoon and night. 
 <br>
 <br>
-However, to obtain a more specific overview of where the drug-related crimes are registered we provide a map showing the number of occurrences within the different districts of San Francisco. 
+However, to obtain a more specific overview of where the drug-related crimes are registered we provide a map showing the yearly average of occurrences within the different districts of San Francisco. 
 
 
 <figure>
@@ -50,10 +51,9 @@ However, to obtain a more specific overview of where the drug-related crimes are
 </center>
 </figure>
 
+On the map, it is observed that the Tenderloin district has the highest number of registered occurrences despite its small size. The number of incidents in this district is significantly higher than in any other district and implies a high presence of drugs in the district. Furthermore, the districts Northern, Southern, and Mission also have a high presence of drug/narcotics crimes. In general, these crimes are significantly more present in the eastern part of the city.
 
-In figure 2 the number of incidents is compensated for the area of the district. Hence the number of incidents is multiplied by the area of the district divided by the total area of San Francisco. Hereby the number of occurrences can be compared across districts with a large variation in size. On the map, it is observed that the Southern district has the highest number of registered occurrences. The number of incidents in this district is significantly higher than in any other district and implies a high presence of drugs in the district. In general drug-related crimes are significantly more present in the middle and northern parts of the city. 
-
-Diving deeper by plotting each drug arrest incident as seen in figure 3 gives an even more detailed view of where exactly the most drug-related arrests are taking place.
+Diving deeper it is investigated where in the districts the crimes take place. In the following plot, the exact coordinates of each incident give an even more detailed view of where exactly the most drug-related arrests are taking place.
 
 <figure>
 <center>
@@ -61,5 +61,10 @@ Diving deeper by plotting each drug arrest incident as seen in figure 3 gives an
     <figcaption>Figure 3 - Interactive map of individual drug arrest incidents in San Francisco filtered by date range.</figcaption>
 </center>
 </figure>
+Here it becomes evident that eg. 6th street in the Southern District in general seems to account for a lot of incidents. Despite Treasure Island being part of the district Southern, and thus being marked as an area with a relatively high number of incidents in figure 2, only very few incidents have been reported on the island. Using the time range filter it can be observed that the number of incidents decreases significantly after 2010. Around 2016 a significant drop in the number of crimes is observed in the southern districts. In the last couple of years, the number of crimes in this area is one of the lowest. The number of crimes in the western part of the city remains low in the entire time range. Using the time range filter one can look to find more spatiotemporal patterns in the data for further analysis and action.
 
-Here it becomes evident that eg. 6th street seems to account for a lot of incidents. Using the time range filter at the bottom, one can look to find spatiotemporal patterns in the data for further analysis and action.
+
+<h2>
+    Conclussion
+</h2>
+In this article, it is observed that drug/narcotic crimes in San Fransisco follow clear patterns. Throughout the week this type of crime appears more often in the evening and during the night. Furthermore, crimes are often located in the district of Tenderloin and the surrounding areas. Analyzing the exact location of crimes shows which streets have significantly more occurrences.
